@@ -48,7 +48,7 @@ Scenario Outline: Try to log into Wikipedia
 
 
 #@owner:me @critical @issue:WIK-3 @tms:https://jira.example.org/browse/WIK-3 @positive @negative
-#Scenario: Use "I don't remember password" feature
+#Scenario: Check password reminder feature
 
 #@owner:me @minor @issue:WIK-2 @tms:https://jira.example.org/browse/WIK-2 @positive @negative
 #Scenario: Log into Wikipedia with remember me option
