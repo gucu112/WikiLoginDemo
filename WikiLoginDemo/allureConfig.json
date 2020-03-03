@@ -1,0 +1,24 @@
+﻿{
+  "allure": {
+    "directory": "TestResults",
+    "title": "WikiLoginDemo test run",
+    "links": [
+      "{tms}"
+    ]
+  },
+  "specflow": {
+    "stepArguments": {
+      "convertToParameters": "true",
+      "paramNameRegex": "",
+      "paramValueRegex": ""
+    },
+    "labels": {
+      "owner": "^owner:?(.+)",
+      "severity": "^(normal|blocker|critical|minor|trivial)"
+    },
+    "links": {
+      "issue": "^issue:(\\d+)",
+      "tms": "^tms:(\\d+)"
+    }
+  }
+}
