@@ -4,14 +4,23 @@ Project shows simple system testing setup for Wikipedia login functionality.
 
 ## Running the tests
 
-1.	Clone repository
+1.  Clone repository
 2.	Open `WikiLoginTests.sln` file using Visual Studio
-3.	Use _Test Explorer_ tool to run tests
+3.  Set `ALLURE_CONFIG` environment variable ([see here](https://github.com/allure-framework/allure-csharp#configuration))
+4.	Use _Test Explorer_ tool to run tests
+
+## Generating the reports
+
+1. Run the tests
+2. Open command prompt
+3. Navigate to solution folder
+4. Type `allure serve WikiLoginDemo/bin/Debug/TestResults/` and hit enter 
 
 ### Prerequisites
 
 * Visual Studio (ideally 2019)
 * NuGet package manager
+* Allure
 
 ### Installing
 
@@ -25,7 +34,7 @@ There is no environment for the project, so there is no need for deployment :)
 
 * xUnit
 * SpecFlow
-* Allure (will be added in near future, I hope)
+* Allure
 
 ## Contributing
 
